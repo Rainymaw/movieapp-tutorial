@@ -1,0 +1,33 @@
+body{
+    background-color: #282c34;
+}
+.container{
+    display:flex;
+    justify-content:flex-start;
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    height:500px;
+    background-color: #282c34;
+}
+.movie-container{
+    margin:30px;
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+   
+}
+.overlay{
+    position:absolute;
+    color:white;
+    background-color:black;
+    text-align:center;
+    width:100%;
+    opacity:0;
+    font-size:2rem;
+    transition:opacity 0.5s;
+}
+.movie-container:hover .overlay{
+    opacity:1;
+    cursor:pointer;
+}

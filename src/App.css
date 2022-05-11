@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+.landing{
+  background-color:#282c34;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+.landing button{
+  background-color:green;
+  color:white;
+  border:0px;
+  padding:20px;
+}
+
+.navbar{
+  display:flex;
+  list-style:none;
+  background-color:#61dafb;
+  justify-content:space-around;
+  padding:20px;
+  margin:0;
+}
+.navbar li{
+  text-decoration: none;
+}
